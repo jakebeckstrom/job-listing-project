@@ -11,6 +11,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} 
+
+body {
+  margin: 20px 40px;
 }
 
 .App-header {
@@ -25,16 +29,34 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #666666;
 }
 
 .job {
   width: 80%;
   margin: 0 auto; 
   display: flex;
-  justify-content: space-around;
-  margin: 10px 0;
-  padding: 10px 0;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 10px;
+}
+
+.job:hover {
+  cursor: pointer;
+  color: darkgray;
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
+}
+
+.job-company {
+  padding: 0 30px;
+}
+
+.job-dialog {
+  padding: 30px 50px;
 }
 
 @keyframes App-logo-spin {
